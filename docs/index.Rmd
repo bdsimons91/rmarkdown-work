@@ -193,4 +193,44 @@ One difficulty in extracting the beam parameters with the fit from this method i
 
 ## Proposed Future Optics Studies Materials {.tabset}
 
-Seeing that we can in fact get a good fit with using this method, it is of particular interest to see what other quad and screen combinations might give us usable data. So, I wrote a python script using Pytorch which allows me to quickly run through all of the possible combinations to provide an initial view of the expected profile shapes. Depending on the profiles from this, I then run the setup in g4beamline to provide me with simulated particle distributions to run the analysis on. If the fit from the simulated data provides a good fit allowing us to extract the Twiss parameters, emittance, dispersion, etc., then it will be marked as a potential measurement location candidate for the next optics study. This
+Seeing that we can in fact get a good fit with using this method, it is of particular interest to see what other quad and screen combinations might give us usable data. So, I wrote a python script using Pytorch which allows me to quickly run through all of the possible combinations to provide an initial view of the expected profile shapes. Depending on the profiles from this, I then run the setup in g4beamline to provide me with simulated particle distributions to run the analysis on. If the fit from the simulated data provides a good fit allowing us to extract the Twiss parameters, emittance, dispersion, etc., then it will be marked as a potential measurement location candidate for the next optics study. Looking again at the simulated beam, we can start to make a note of every combination to be used for this method:
+
+<center>![Section of the beamline used for this method](M4%20entrance%20for%20DQScans%20Labeled.jpg){alt="Section of the beamline used for this method"}</center>
+
+### Screen MW903 {.tabset .tabset-pills}
+
+#### Q901 & Q902
+
+#### Q901 & Q903
+
+### Screen MW906 {.tabset .tabset-pills}
+
+#### Q901 & Q902
+
+#### Q901 & Q903
+
+#### Q901 & Q904
+
+#### Q901 & Q905
+
+#### Q901 & Q906
+
+### Screen MW908 {.tabset .tabset-pills}
+
+#### Q906 & Q907
+
+#### Q906 & Q908
+
+#### Q907 & Q908
+
+### Screen MW909 {.tabset .tabset-pills}
+
+#### Q906 & Q907
+
+#### Q906 & Q908
+
+#### Q906 & Q909
+
+#### Q907 & Q908
+
+#### Q907 & Q909
