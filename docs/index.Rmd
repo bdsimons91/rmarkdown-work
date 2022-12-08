@@ -171,6 +171,8 @@ The second optics study provided an opportunity to employ a variation of the qua
 
 For the double quad scan performed during the 2nd optics study, the quads that were scanned were Q901 and Q902, with V901 being the dipole in between them. Quad Q903 was turned off and the profiles were collected at screen MW903. In total, there were beam profiles measured for 100 different quad setting combinations and the fit for the data is shown below.
 
+<center>![Simulation](images/Simulated%20DQScan%20Q901.902_MW903.png)</center>
+
 <center>
 
 ```{r Double Quad Scan, echo=FALSE}
